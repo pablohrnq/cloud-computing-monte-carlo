@@ -1,0 +1,20 @@
+ROTEIRO DE VÍDEO - 2 A 4 MINUTOS
+
+1. Apresentação inicial:
+   "Este projeto demonstra processamento paralelo e distribuído em nuvem por meio do cálculo de Pi pelo método de Monte Carlo."
+
+2. Mostrar arquitetura:
+   Explique rapidamente: usuário -> Streamlit -> FastAPI -> Redis -> Celery Workers.
+
+3. Mostrar Docker Compose:
+   Rode: docker compose up --build
+   Mostre os serviços: redis, api, frontend, worker1, worker2, worker3 e worker4.
+
+4. Execução com 1 worker:
+   Acesse http://localhost:8501, selecione 12.000.000 iterações e 1 worker. Execute e anote o tempo.
+
+5. Execução com 4 workers:
+   Mantenha 12.000.000 iterações, selecione 4 workers. Execute e compare o tempo.
+
+6. Encerramento:
+   Mostre o relatório técnico, a tabela de performance e a estrutura do GitHub.
