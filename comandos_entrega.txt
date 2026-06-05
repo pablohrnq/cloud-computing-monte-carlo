@@ -1,0 +1,20 @@
+COMANDOS PRINCIPAIS
+
+Subir a aplicação:
+docker compose up --build
+
+Acessar interface:
+http://localhost:8501
+
+Acessar API/documentação:
+http://localhost:8000/docs
+
+Executar benchmark local:
+python scripts/benchmark_local.py
+
+Sugestão de evidência para entrega:
+- Print da tela do Docker Compose rodando;
+- Print da interface Streamlit com resultado de 1 worker;
+- Print da interface Streamlit com resultado de 4 workers;
+- Link do GitHub com o código-fonte;
+- PDF do relatório técnico.
